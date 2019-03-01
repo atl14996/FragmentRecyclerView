@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInputFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etFrgUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"/>
+
+    <EditText
+        android:id="@+id/etFrgUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL ADDRESS"/>
+
+    <EditText
+        android:id="@+id/etFrgUserPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER PASSWORD"/>
+
+</LinearLayout>
